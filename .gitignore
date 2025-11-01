@@ -1,0 +1,33 @@
+# === Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+.terraform.lock.hcl
+crash.log
+*.tfplan
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+.env
+.env.*
+
+# === Docker / Secrets ===
+*.pem
+*.key
+*.crt
+*.csr
+
+# === System / IDE ===
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# === Build / Temp ===
+dist/
+build/
+logs/
+*.log
